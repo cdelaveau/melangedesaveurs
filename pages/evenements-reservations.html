@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La page des évènements et réservations du site Web Mélange de saveurs">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="événements et réservations, restaurant, mélange de saveurs">
+    <meta name="author" content="Cyriaque Delaveau">
+    <meta name="robots" content="evenements-reservations,follow,noodp,noydir">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bouton retour haut de page.css">
+    <link rel="stylesheet" type="text/css" href="../css/calendrier.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+    <title>Mélange de Saveurs - Événements et réservations</title>
+</head>
+<body>
+    <header class="bg-yellow-500 py-4">
+        <nav class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="../index.html" class="flex items-center">
+                    <img src="../img/logo.png" alt="Logo Mélange de Saveurs" class="h-10 mr-2">
+                    <span class="text-white font-bold text-xl">Mélange de Saveurs</span>
+                </a>
+            </div>              
+            <ul class="flex items-center">
+                <li><a href="a-propos.html" class="text-white hover:text-gray-200 px-4 py-2">À propos</a></li>
+                <li><a href="nos-menus.html" class="text-white hover:text-gray-200 px-4 py-2">Nos menus</a></li>
+                <li><a href="evenements-reservations.html" class="text-white hover:text-gray-200 px-4 py-2">Événements et réservations</a></li>
+                <li><a href="contact.html" class="text-white hover:text-gray-200 px-4 py-2">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="py-10 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Réservez une table en ligne</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <img src="../img/table réservation.png" alt="image d'une table de restaurant réservée" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <form action="#" method="POST" class="bg-white rounded-lg shadow-lg p-6">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-bold mb-2">Nom complet</label>
+                            <input type="text" name="name" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Votre nom complet">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-bold mb-2">Adresse e-mail</label>
+                            <input type="email" name="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Votre adresse e-mail">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 font-bold mb-2">Numéro de téléphone</label>
+                            <input type="tel" name="phone" id="phone" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Votre numéro de téléphone">
+                        </div>
+                        <div class="mb-4">
+                            <label for="date" class="block text-gray-700 font-bold mb-2">Date de réservation</label>
+                            <input type="date" name="date" id="date" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+                        <div class="mb-4">
+                            <label for="time" class="block text-gray-700 font-bold mb-2">Heure de réservation</label>
+                            <input type="time" name="time" id="time" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+                        <div class="mb-4">
+                            <label for="guests" class="block text-gray-700 font-bold mb-2">Nombre d'invités</label>
+                            <input type="number" name="guests" id="guests" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" min="1" max="10">
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600">Réserver une table</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Événements spéciaux</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <img src="../img/soirée à thème.png" alt="image d'une soirée à thème sur le thème de la cuisine asiatique" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <ul class="list-disc ml-6">
+                        <li>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Soirée à thème : "Voyage culinaire en Asie"</h3>
+                            <p class="text-gray-700">Rejoignez-nous le samedi 18 juin à partir de 19h pour une soirée spéciale "Voyage culinaire en Asie". Découvrez les saveurs de la cuisine asiatique avec un menu dégustation à 5 plats et des cocktails spécialement créés pour l'occasion. Réservation obligatoire.</p>
+                        </li>
+                        <li class="mt-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Dégustation de vins : "Vins d'été"</h3>
+                            <p class="text-gray-700">Le jeudi 23 juin à partir de 18h, rejoignez-nous pour une dégustation de vins d'été. Découvrez une sélection de vins frais et fruités, accompagnés de tapas spécialement préparées pour l'occasion. Réservation obligatoire.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Calendrier des événements</h2>
+            <div id="calendrier"></div>
+        </div>
+    </section>
+
+
+    <section class="py-10 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Nos services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <img src="../img/livraison service.png" alt="image du service de livraison de restaurant" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                    <br/>
+                    <img src="../img/traiteur service.png" alt="image du service de traiteur de restaurant" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                    <br/>
+                    <img src="../img/réservation service.png" alt="image du service de réservation de restaurant" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <ul class="list-disc ml-6">
+                        <li>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Service de livraison</h3>
+                            <p class="text-gray-700">Notre restaurant offre également un service de livraison pratique pour nos clients qui souhaitent profiter de nos plats dans le confort de leur maison. Nous livrons dans un rayon de 10 km autour du restaurant, du lundi au samedi, de 18h à 22h.
+                            Pour passer une commande, il vous suffit de consulter notre menu en ligne et de sélectionner les plats que vous souhaitez. Vous pouvez ensuite nous contacter par téléphone au numéro indiqué sur notre site web pour passer votre commande et donner les détails de livraison.</p>
+                            <br>
+                        </li>
+                        <li class="mt-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Service traiteur</h3>
+                            <p class="text-gray-700">Vous organisez un événement spécial et vous voulez offrir à vos invités des plats de qualité qui impressionneront leurs papilles gustatives ? Notre service traiteur est là pour répondre à vos besoins.
+                            Nous proposons des menus personnalisés pour s'adapter à vos goûts et à votre budget, que ce soit pour une réunion d'affaires, une fête d'anniversaire, un mariage ou tout autre événement important. Nous pouvons également adapter nos menus pour les régimes alimentaires spécifiques, tels que les plats végétariens, végétaliens et sans gluten.</p>
+                            <br>
+                            <br>
+                            <br>
+                        </li>
+                        <li class="mt-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Service de réservation</h3>
+                            <p class="text-gray-700">Pour réserver une table dans notre restaurant, vous pouvez facilement le faire en ligne ou par téléphone. Nous recommandons de réserver à l'avance pour être sûr d'avoir une place dans notre établissement, surtout les soirs de week-end où nous sommes souvent très occupés.
+                            Nous sommes ouverts du lundi au samedi, de 12h à 14h pour le déjeuner et de 19h à 22h pour le dîner. Notre équipe de professionnels est là pour vous accueillir chaleureusement et vous offrir une expérience culinaire unique et mémorable.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="btn-retour" onclick="retourEnHaut()">⇧</button>
+
+    <script type="text/javascript" src="../js/retour-haut-page.js"></script>
+      
+    <script type="text/javascript" src="../js/calendrier.js"></script>
+    
+    <footer class="bg-gray-200 py-4">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-500 text-sm">© 2023 Mélange de Saveurs. Tous droits réservés.</p>
+            <ul class="flex justify-center mt-2">
+                <li><a href="politique-confidentialite.html" class="text-gray-500 hover:text-gray-700 px-2 py-1">Politique de confidentialité</a></li>
+                <li><a href="condition-utilisation.html" class="text-gray-500 hover:text-gray-700 px-2 py-1">Conditions d'utilisation</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La page d'accueil du site Web Mélange de saveurs">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="accueil, restaurant, mélange de saveurs">
+    <meta name="author" content="Cyriaque Delaveau">
+    <meta name="robots" content="index,follow,noodp,noydir">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/bouton retour haut de page.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <title>Mélange de Saveurs - Accueil</title>
+</head>
+<body>
+    <header class="bg-yellow-500 py-4">
+        <nav class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="/" class="flex items-center">
+                    <img src="img/logo.png" alt="Logo Mélange de Saveurs" class="h-10 mr-2">
+                    <span class="text-white font-bold text-xl">Mélange de Saveurs</span>
+                </a>
+            </div>              
+            <ul class="flex items-center">
+                <li><a href="pages/a-propos.html" class="text-white hover:text-gray-200 px-4 py-2">À propos</a></li>
+                <li><a href="pages/nos-menus.html" class="text-white hover:text-gray-200 px-4 py-2">Nos menus</a></li>
+                <li><a href="pages/evenements-reservations.html" class="text-white hover:text-gray-200 px-4 py-2">Événements et réservations</a></li>
+                <li><a href="pages/contact.html" class="text-white hover:text-gray-200 px-4 py-2">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg-white py-10">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-6 md:mb-0">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Bienvenue chez Mélange de Saveurs</h2>
+                <h3 id="animated-text" class="italic font-script text-2xl text-gray-800 mb-4">La cuisine fusion à son meilleur</h3>
+                <p class="text-gray-700 text-lg mb-4">Nous sommes un restaurant de cuisine fusion, qui combine des éléments de différentes cultures culinaires pour créer une expérience gustative unique pour nos clients.</p>
+                <p class="text-gray-700 text-lg mb-4">Nos menus sont créatifs et diversifiés, avec des plats qui allient des saveurs d'Asie, d'Europe et d'ailleurs pour des plats innovants et délicieux.</p>
+                <a href="pages/nos-menus.html" class="text-yellow-500 hover:text-yellow-600 font-bold text-lg">Voir nos menus</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="img/mélange de saveurs restaurant accueil.png" alt="Intérieur du restaurant" class="rounded-lg shadow-md">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-gray-100 py-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Nos plats phares</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rounded-lg shadow-lg overflow-hidden">
+                            <img src="img/poulet Tikka masala avec riz basmati et légumes grillés.png" alt="Plat phare 1 poulet Tikka masala avec riz basmati et légumes grillés" class="w-full h-65 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold mb-2">Poulet Tikka masala</h3>
+                                <p class="text-gray-700 text-lg mb-4">Notre célèbre plat de poulet Tikka masala est cuit à la perfection, servi avec du riz basmati, des légumes grillés et une sauce au brie pour une expérience gustative inoubliable.</p>
+                                <a href="pages/nos-menus.html" class="bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition-colors duration-300 ease-in-out">Voir le menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="swiper-slide">
+                        <div class="rounded-lg shadow-lg overflow-hidden">
+                            <img src="img/filet de canard laqué avec riz sauté au gingembre et légumes wok à la citronnelle.png" alt="Plat phare 2 filet de canard laqué avec riz sauté au gingembre et légumes wok à la citronnelle" class="w-full h-65 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold mb-2">Filet de canard laqué</h3>
+                                <p class="text-gray-700 text-lg mb-4">Notre filet de canard laqué est cuit à la perfection, accompagné de riz sauté au gingembre et de légumes wok à la citronnelle</p>
+                                <a href="pages/nos-menus.html" class="bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition-colors duration-300 ease-in-out">Voir le menu</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="swiper-slide">
+                        <div class="rounded-lg shadow-lg overflow-hidden">
+                            <img src="img/Tacos au poisson, accompagné d'une salsa à l'ananas et de la crème aigre épicée.png" alt="Plat phare 3 Tacos au poisson, accompagné d'une salsa à l'ananas et de la crème aigre épicée" class="w-full h-65 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold mb-2">Tacos au poisson</h3>
+                                <p class="text-gray-700 text-lg mb-4">Notre fameux Tacos au poisson, accompagné d'une salsa à l'ananas et de la crème aigre épicée</p>
+                                <a href="pages/nos-menus.html" class="bg-yellow-500 text-white py-2 px-4 rounded-md hover:bg-yellow-600 transition-colors duration-300 ease-in-out">Voir le menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="btn-retour" onclick="retourEnHaut()">⇧</button>
+
+    <script type="text/javascript" src="js/animation-texte.js"></script>
+    <script type="text/javascript" src="js/retour-haut-page.js"></script>
+    
+    <footer class="bg-gray-200 py-4">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-500 text-sm">© 2023 Mélange de Saveurs. Tous droits réservés.</p>
+            <ul class="flex justify-center mt-2">
+                <li><a href="pages/politique-confidentialite.html" class="text-gray-500 hover:text-gray-700 px-2 py-1">Politique de confidentialité</a></li>
+                <li><a href="pages/condition-utilisation.html" class="text-gray-500 hover:text-gray-700 px-2 py-1">Conditions d'utilisation</a></li>
+            </ul>
+        </div>
+    </footer>      
+</body>
+</html>

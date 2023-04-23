@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /reservation/
+Disallow: /menu/
+Disallow: /contact/
+Sitemap: https://www.melangedesaveurs.fr/sitemap.xml

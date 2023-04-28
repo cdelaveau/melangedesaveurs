@@ -1,0 +1,68 @@
+/* Style général de la table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Style de l'en-tête de la table */
+th {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #8b5c2e;
+  background-color: #fff8f2;
+  border-bottom: 1px solid #f0e1d1;
+  padding: 0.5rem;
+}
+
+/* Style des cellules de la table */
+td {
+  font-size: 0.875rem;
+  color: #4a5568;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+/* Style des listes dans les cellules */
+td ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style des éléments de liste dans les cellules */
+td ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style du premier élément de liste dans les cellules */
+td ul li:first-of-type {
+  margin-top: 0;
+}
+
+/* Style du dernier élément de liste dans les cellules */
+td ul li:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Style du premier élément span de la liste dans les cellules */
+td ul li span:first-of-type {
+  display: inline-block;
+  width: 70%;
+}
+
+/* Style du dernier élément span de la liste dans les cellules */
+td ul li span:last-of-type {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+/* Style lorsque la souris survole une cellule */
+td:hover {
+  background-color: #fdf6e3;
+}
